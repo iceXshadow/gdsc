@@ -736,6 +736,9 @@ input[type="radio"]:checked + label::after {
 footer {
     margin: 0;
     margin-top: 5%;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
     border-radius: 50px 50px 0 0;
     background: linear-gradient(
         to right,
@@ -745,4 +748,81 @@ footer {
         /* background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent; */
+}
+
+.ff .logo-group {
+    margin: 0;
+    margin-top: 40px;
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+    color: var(--background);
+}
+
+.location-grp .loc {
+    margin: 0 auto ;
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    color: var(--background);
+    gap: 2em;
+}
+
+.location-grp .loc>svg {
+    width: 40px;
+}
+
+.email-grp .em {
+    margin: 0 auto;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    color: var(--background);
+    gap: 2em;
+}
+
+.email-grp .em>svg {
+    width: 40px;
+}
+
+.socials {
+    display: flex;
+    /* margin: 0; */
+    align-items: center;
+    gap: 2em;
+    color: var(--background);
+    width: fit-content;
+    /* position: absolute; */
+}
+
+.socials .soc-text {
+    width: 80px;
+}
+
+.socials .ic {
+    align-items: center;
+    display: flex;
+    gap: 2em;
+}
+
+.rule-grp {
+    margin: 0 auto;
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.rule-grp .rule {
+    border-radius: 10px;
+    height: 1px;
+    width: 90vw;
+    background: var(--background);
+}
+
+.rule-grp .rule-text {
+    display: flex;
+    padding-top: 20px;
+    color: var(--background);
+    align-items: center;
+    width: 245px;
 }

@@ -25,7 +25,7 @@
                         <li class="parent"><a class="link" href="#">Team</a></li>
                         <li class="parent"><a class="link" href="#">Alumni</a></li>
                         <li class="parent"><a class="link" href="#">Contact</a></li>
-                    <img alt="GDSC-logo" src="svg/toggle.svg" style="cursor: pointer;">
+                    <img alt="GDSC-logo" id="toggle" src="svg/toggle.svg" style="cursor: pointer;" onclick="changeImg(this)">
                 </div>
             </div>
     </header>
@@ -332,7 +332,11 @@
             </div>
         </div>
     </footer>
-    
-    <!-- <script src="index.js"></script> -->
+
+    <script>
+        function changeImg(image) {
+            image.src = 'svg/toggle-2.svg';
+        }
+    </script>
 </body>
 </html>
